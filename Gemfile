@@ -46,6 +46,10 @@ group :development, :test do
 	gem 'rspec-rails'
 	# Use sqlite3 as the database for Active Record
 	gem 'sqlite3'
+	gem 'guard-rspec'
+	gem 'spork-rails'
+	gem 'guard-spork'
+	gem 'childprocess'
 end
 
 group :test do
